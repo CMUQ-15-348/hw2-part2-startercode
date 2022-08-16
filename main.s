@@ -34,11 +34,6 @@ GPIO_PORTD_CR_R			.field	0x40007524,32
 GPIO_PORTD_AMSEL_R		.field	0x40007528,32
 GPIO_PORTD_PCTL_R		.field	0x4000752C,32
 
-NVIC_ST_CTRL_R			.field	0xE000E010,32
-NVIC_ST_RELOAD_R		.field	0xE000E014,32
-NVIC_ST_CURRENT_R		.field	0xE000E018,32
-MAX_RELOAD_VAL			.field	0x00ffffff,32
-
 ; Create 4-byte integers in the data segment. Both have initial values of 0.
 	.data
 a	.word	0
